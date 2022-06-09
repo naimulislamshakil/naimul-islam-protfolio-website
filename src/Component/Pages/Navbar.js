@@ -1,11 +1,39 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import logo from "../../img/Black_Elegant_and_Modern_Beauty_Salon_Logo-removebg-preview.png";
 
 const Navbar = () => {
   const navBar = (
     <>
       <li>
-        <a>Item 3</a>
+        <Link className="btn-outline font-bold" to="/">
+          Home
+        </Link>
+      </li>
+      <li>
+        <Link className="btn-outline font-bold" to="/">
+          About Us
+        </Link>
+      </li>
+      <li>
+        <Link className="btn-outline font-bold" to="/">
+          Portfolio
+        </Link>
+      </li>
+      <li>
+        <Link className="btn-outline font-bold" to="/">
+          Service
+        </Link>
+      </li>
+      <li>
+        <Link className="btn-outline font-bold" to="/">
+          Blogs
+        </Link>
+      </li>
+      <li>
+        <Link className="btn-outline font-bold" to="/">
+          Contact Us
+        </Link>
       </li>
     </>
   );
@@ -33,14 +61,16 @@ const Navbar = () => {
             <ul
               tabindex="0"
               class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
-            ></ul>
+            >
+              {navBar}
+            </ul>
           </div>
-          <a class="btn btn-ghost uppercase text-primary text-xl">
+          <Link to="/" class="btn btn-ghost uppercase  text-xl">
             Naimul Islam
-          </a>
+          </Link>
         </div>
         <div class="navbar-center hidden lg:flex">
-          <ul class="menu menu-horizontal p-0"></ul>
+          <ul class="menu menu-horizontal p-0">{navBar}</ul>
         </div>
       </div>
     </div>

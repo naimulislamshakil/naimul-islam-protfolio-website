@@ -1,11 +1,13 @@
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import Navbar from "./Component/Pages/Navbar";
 import Home from "./Component/Pages/Home";
 
 function App() {
   return (
     <div className="container mx-auto">
-      <Home></Home>
+      <Routes>
+        <Route path="/" element={<Home />}></Route>
+      </Routes>
     </div>
   );
 }

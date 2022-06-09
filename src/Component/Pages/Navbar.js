@@ -1,9 +1,10 @@
 import React from "react";
+import logo from "../../img/Black_Elegant_and_Modern_Beauty_Salon_Logo-removebg-preview.png";
 
 const Navbar = () => {
   return (
     <div>
-      <div class="navbar bg-base-100">
+      <div class="navbar">
         <div class="navbar-start">
           <div class="dropdown">
             <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -56,7 +57,7 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
+          <a class="btn btn-ghost normal-case text-xl">Naimul Islam</a>
         </div>
         <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal p-0">

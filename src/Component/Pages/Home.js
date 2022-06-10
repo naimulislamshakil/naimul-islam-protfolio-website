@@ -4,6 +4,7 @@ import Awesome from "./Awesome";
 import Banner from "./Banner";
 import Portfolio from "./Portfolio";
 import Skill from "./Skill";
+import Subscribe from "./Subscribe";
 import Tastmonial from "./Tastmonial";
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
       <Portfolio></Portfolio>
       <Skill></Skill>
       <Tastmonial></Tastmonial>
+      <Subscribe></Subscribe>
     </div>
   );
 };

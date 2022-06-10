@@ -1,3 +1,8 @@
 .bg-image {
   background-image: linear-gradient(#66b3ff, #1d314a);
 }
+.bg-about {
+  background-image: url(../../img/1.png);
+  background-repeat: no-repeat;
+  margin-top: 20px;
+}

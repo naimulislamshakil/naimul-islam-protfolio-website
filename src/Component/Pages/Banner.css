@@ -20,3 +20,32 @@
   background-repeat: no-repeat;
   margin-top: 20px;
 }
+.skill-container ul li {
+  text-decoration: none;
+  font-weight: bold;
+  margin: 30px 0;
+  text-transform: uppercase;
+  position: relative;
+}
+.skill-container ul li::before {
+  content: "";
+  position: absolute;
+  top: calc(100% + 5px);
+  background-color: gray;
+  width: 80%;
+  height: 20px;
+  border-radius: 10px;
+}
+.skill-container ul li::after {
+  content: "";
+  position: absolute;
+  top: calc(100% + 5px);
+  background-color: rgb(184, 7, 84);
+  width: 0%;
+  height: 20px;
+  border-radius: 10px;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-delay: 2s;
+  animation-duration: forward;
+}

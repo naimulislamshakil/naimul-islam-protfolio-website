@@ -104,7 +104,9 @@ const AboutMe = () => {
                 </h3>
               </div>
             </div>
-            <button class="btn btn-outline btn-info">Downlode My Resume</button>
+            <button data-aos="fade-up" class="btn btn-info">
+              Downlode My Resume
+            </button>
           </div>
         </div>
       </div>

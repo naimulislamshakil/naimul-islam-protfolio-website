@@ -4,6 +4,7 @@ import Awesome from "./Awesome";
 import Banner from "./Banner";
 import Portfolio from "./Portfolio";
 import Skill from "./Skill";
+import Tastmonial from "./Tastmonial";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <AboutMe></AboutMe>
       <Portfolio></Portfolio>
       <Skill></Skill>
+      <Tastmonial></Tastmonial>
     </div>
   );
 };

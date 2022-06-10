@@ -9,3 +9,9 @@
 .dark-gray {
   color: #808080;
 }
+.arrow-text {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  margin-bottom: 5px;
+}

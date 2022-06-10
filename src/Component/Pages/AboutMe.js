@@ -20,11 +20,11 @@ const AboutMe = () => {
             </div>
             <div data-aos="fade-left">
               <h1 class="text-4xl font-bold">
-                I Can Design Anything <br /> You Want
+                I Can Devlop Anything <br /> You Want
               </h1>
             </div>
             <div data-aos="fade-left">
-              <p class="py-6 dark-gray">
+              <p class="py-6 text-gray-500">
                 Hello there! I'm a Web Developer, and I'm very passionate and
                 dedicated to my work. I have acquired the skills and knowledge
                 necessary to make your project a success. I enjoy every step of
@@ -36,9 +36,73 @@ const AboutMe = () => {
               <h2 data-aos="fade-left" className="text-xl font-bold">
                 Here are a Few Highlights:
               </h2>
-              <h3>
-                <img src={arrow} alt="" />
-              </h3>
+
+              <div className="arrow-text">
+                <img
+                  data-aos="fade-right"
+                  className="w-[20px] mr-3"
+                  src={arrow}
+                  alt=""
+                />
+                <h3 data-aos="fade-left" className="text-md font-bold ">
+                  Interactive Front-End as per the design.
+                </h3>
+              </div>
+              <div className="arrow-text">
+                <img
+                  data-aos="fade-right"
+                  className="w-[20px] mr-3"
+                  src={arrow}
+                  alt=""
+                />
+                <h3 data-aos="fade-left" className="text-md font-bold ">
+                  JavaScript & TypeScript.
+                </h3>
+              </div>
+              <div className="arrow-text">
+                <img
+                  data-aos="fade-right"
+                  className="w-[20px] mr-3"
+                  src={arrow}
+                  alt=""
+                />
+                <h3 data-aos="fade-left" className="text-md font-bold ">
+                  Responsive web layout.
+                </h3>
+              </div>
+              <div className="arrow-text">
+                <img
+                  data-aos="fade-right"
+                  className="w-[20px] mr-3"
+                  src={arrow}
+                  alt=""
+                />
+                <h3 data-aos="fade-left" className="text-md font-bold ">
+                  Firebase for React Authentication.
+                </h3>
+              </div>
+              <div className="arrow-text">
+                <img
+                  data-aos="fade-right"
+                  className="w-[20px] mr-3"
+                  src={arrow}
+                  alt=""
+                />
+                <h3 data-aos="fade-left" className="text-md font-bold ">
+                  Building REST API.
+                </h3>
+              </div>
+              <div className="arrow-text">
+                <img
+                  data-aos="fade-right"
+                  className="w-[20px] mr-3"
+                  src={arrow}
+                  alt=""
+                />
+                <h3 data-aos="fade-left" className="text-md font-bold ">
+                  Managing database
+                </h3>
+              </div>
             </div>
             <button class="btn btn-primary">Get Started</button>
           </div>

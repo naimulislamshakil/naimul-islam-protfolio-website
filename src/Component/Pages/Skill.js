@@ -23,22 +23,92 @@ const Skill = () => {
               to Keep Me Update
             </p>
 
-            <div className="skill-container">
+            <div className="skill-container mt-2">
               <ul>
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>Bootstrap</li>
-                <li>Tailwind CSS</li>
-                <li>JavaScript</li>
-                <li>TypeScript</li>
-                <li>React</li>
-                <li>Node</li>
-                <li>Express</li>
-                <li>MongoDB</li>
+                <li>
+                  <h2>HTML5</h2>
+                  <span className="skill">
+                    <span className="html flex justify-center items-center">
+                      80%
+                    </span>
+                  </span>
+                </li>
+                <li>
+                  <h2>CSS3</h2>
+                  <span className="skill">
+                    <span className="css flex justify-center items-center">
+                      90%
+                    </span>
+                  </span>
+                </li>
+                <li>
+                  <h2>bootstrap</h2>
+                  <span className="skill">
+                    <span className="bs flex justify-center items-center">
+                      95%
+                    </span>
+                  </span>
+                </li>
+                <li>
+                  <h2>Tailwind css</h2>
+                  <span className="skill">
+                    <span className="tc flex justify-center items-center">
+                      95%
+                    </span>
+                  </span>
+                </li>
+                <li>
+                  <h2>javascript</h2>
+                  <span className="skill">
+                    <span className="js flex justify-center items-center">
+                      75%
+                    </span>
+                  </span>
+                </li>
+                <li>
+                  <h2>Typescript</h2>
+                  <span className="skill">
+                    <span className="ts flex justify-center items-center">
+                      85%
+                    </span>
+                  </span>
+                </li>
+                <li>
+                  <h2>react</h2>
+                  <span className="skill">
+                    <span className="rt flex justify-center items-center">
+                      90%
+                    </span>
+                  </span>
+                </li>
+                <li>
+                  <h2>node</h2>
+                  <span className="skill">
+                    <span className="nd flex justify-center items-center">
+                      60%
+                    </span>
+                  </span>
+                </li>
+                <li>
+                  <h2>express</h2>
+                  <span className="skill">
+                    <span className="ex flex justify-center items-center">
+                      80%
+                    </span>
+                  </span>
+                </li>
+                <li>
+                  <h2>mongodb</h2>
+                  <span className="skill">
+                    <span className="md flex justify-center items-center">
+                      70%
+                    </span>
+                  </span>
+                </li>
               </ul>
             </div>
 
-            <button class="btn btn-primary">Get Started</button>
+            <button class="btn btn-primary mt-5">Get Started</button>
           </div>
         </div>
       </div>

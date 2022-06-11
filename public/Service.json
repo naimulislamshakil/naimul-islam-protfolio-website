@@ -1,8 +1,55 @@
 [
   {
-    "img": "",
-    "tech": [],
-    "text": "",
-    "titel": "Laptop Parts Manufacturer Website!"
+    "img": "https://i.ibb.co/DMCJ0QS/Screenshot-5.png",
+    "tech": [
+      "React",
+      "React Router",
+      "Firebase Authentication",
+      "Tailwind CSS",
+      "Swipe JS",
+      "Node JS",
+      "Express JS",
+      "MongoDB"
+    ],
+    "text": "This is a Laptop Parts Manufacturer Company website. Include on this website Admin Panel & a User Panel.",
+    "titel": "Manufacturer Company Website",
+    "client-text": "Manufacturer website client side code.",
+    "client-link": "https://github.com/naimulislamshakil/manufacturer-website-cliend-side",
+    "server-text": "Manufacturer website server side code.",
+    "server-link": "https://github.com/naimulislamshakil/manufacturer-website-server-side",
+    "live-text": "Manufacturer live website link.",
+    "live-link": "https://build-laptop-parts.web.app/"
+  },
+  {
+    "img": "https://i.ibb.co/9hFx6zs/Screenshot-7.png",
+    "tech": [
+      "React",
+      "React Router",
+      "Firebase Authentication",
+      "Tailwind CSS",
+      "Node JS",
+      "Express JS",
+      "MongoDB"
+    ],
+    "text": "This is a Hospital Doctor & Passent Management website.It also  includes on this website a Admin Panel & a User Panel.",
+    "titel": "Doctor Portal Website",
+    "client-text": "Doctor Portal Website Client Side Code.",
+    "client-link": "https://github.com/naimulislamshakil/dector-portal-client-side",
+    "server-text": "Doctor Portal Website Server Side Code.",
+    "server-link": "https://github.com/naimulislamshakil/doctor-protal-server-side",
+    "live-text": "Doctor Portal Live Website Link.",
+    "live-link": "https://doctor-portal-419f4.web.app/"
+  },
+  {
+    "img": "https://i.ibb.co/7ySwQTd/Screenshot-6.png",
+    "tech": ["BootStrap", "TypeScript", "JavaScript"],
+    "text": "This is a simple Lode user & Manage it Website.",
+    "titel": "Laptop Parts Manufacturer Website!",
+    "client-text": "User Management Website Code.",
+    "client-link": "https://github.com/naimulislamshakil/user-management-typescript",
+    "server-text": "",
+    "server-link": "",
+    "live-text": "User Management Live Website Link.",
+    "live-link": "https://capable-maamoul-7e4d74.netlify.app/"
   }
 ]

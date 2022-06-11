@@ -1,7 +1,16 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./Banner.css";
+import PortfolioCard from "./PortfolioCard";
 
 const Portfolio = () => {
+  const [items, setItem] = useState([]);
+  useEffect(() => {
+    fetch("http://localhost:5000/portfolio")
+      .then((res) => res.json())
+      .then((data) => setItem(data));
+  }, []);
+  console.log(items);
+
   const showAll = () => {
     console.log("click");
   };
@@ -54,6 +63,11 @@ const Portfolio = () => {
         >
           JavaScript
         </button>
+      </div>
+      <div>
+        {items.map((item) => (
+          <PortfolioCard key={item._id} item={item}></PortfolioCard>
+        ))}
       </div>
     </div>
   );

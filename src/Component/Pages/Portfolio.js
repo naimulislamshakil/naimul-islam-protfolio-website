@@ -9,7 +9,6 @@ const Portfolio = () => {
       .then((res) => res.json())
       .then((data) => setItem(data));
   }, []);
-  console.log(items);
 
   const showAll = () => {
     setItem([]);

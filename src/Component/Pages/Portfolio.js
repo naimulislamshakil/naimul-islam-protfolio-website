@@ -5,11 +5,11 @@ import PortfolioCard from "./PortfolioCard";
 const Portfolio = () => {
   const [items, setItem] = useState([]);
   const [a, seta] = useState([]);
-  // useEffect(() => {
-  //   fetch("http://localhost:5000/portfolio")
-  //     .then((res) => res.json())
-  //     .then((data) => setItem(data));
-  // }, []);
+  useEffect(() => {
+    fetch("http://localhost:5000/portfolio")
+      .then((res) => res.json())
+      .then((data) => setItem(data));
+  }, []);
 
   const showAll = () => {
     setItem([]);
@@ -20,13 +20,12 @@ const Portfolio = () => {
   const specife = (value) => {
     setItem([]);
 
-    console.log("click", value);
     fetch("http://localhost:5000/portfolio")
       .then((res) => res.json())
       .then((data) => seta(data));
-    console.log(a);
+
     const available = a.filter((item) => item.tech.includes(value));
-    console.log(available);
+
     setItem(available);
   };
   return (

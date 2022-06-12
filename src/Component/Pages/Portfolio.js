@@ -4,11 +4,12 @@ import PortfolioCard from "./PortfolioCard";
 
 const Portfolio = () => {
   const [items, setItem] = useState([]);
-  useEffect(() => {
-    fetch("http://localhost:5000/portfolio")
-      .then((res) => res.json())
-      .then((data) => setItem(data));
-  }, []);
+  const [a, seta] = useState([]);
+  // useEffect(() => {
+  //   fetch("http://localhost:5000/portfolio")
+  //     .then((res) => res.json())
+  //     .then((data) => setItem(data));
+  // }, []);
 
   const showAll = () => {
     setItem([]);
@@ -17,7 +18,16 @@ const Portfolio = () => {
       .then((data) => setItem(data));
   };
   const specife = (value) => {
+    setItem([]);
+
     console.log("click", value);
+    fetch("http://localhost:5000/portfolio")
+      .then((res) => res.json())
+      .then((data) => seta(data));
+    console.log(a);
+    const available = a.filter((item) => item.tech.includes(value));
+    console.log(available);
+    setItem(available);
   };
   return (
     <div className="bg-portfolio">
@@ -36,13 +46,13 @@ const Portfolio = () => {
           Show All
         </button>
         <button
-          onClick={() => specife("ReactJs")}
+          onClick={() => specife("React")}
           className="font-bold hover:btn-primary btn p-5 w-3/4"
         >
           ReactJs
         </button>
         <button
-          onClick={() => specife("Express")}
+          onClick={() => specife("Express JS")}
           className="font-bold hover:btn-primary btn p-5 w-3/4"
         >
           Express

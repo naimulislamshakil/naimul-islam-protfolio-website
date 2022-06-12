@@ -12,7 +12,10 @@ const Portfolio = () => {
   console.log(items);
 
   const showAll = () => {
-    console.log("click");
+    setItem([]);
+    fetch("http://localhost:5000/portfolio")
+      .then((res) => res.json())
+      .then((data) => setItem(data));
   };
   const specife = (value) => {
     console.log("click", value);
@@ -64,7 +67,7 @@ const Portfolio = () => {
           JavaScript
         </button>
       </div>
-      <div>
+      <div className="grid grid-clos-1 lg:grid-cols-3 justify-center gap-3 mt-10">
         {items.map((item) => (
           <PortfolioCard key={item._id} item={item}></PortfolioCard>
         ))}

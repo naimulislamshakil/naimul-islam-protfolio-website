@@ -9,6 +9,10 @@
 .dark-gray {
   color: #808080;
 }
+.items {
+  align-items: flex-end !important;
+  height: 100%;
+}
 .arrow-text {
   display: flex;
   align-items: center;

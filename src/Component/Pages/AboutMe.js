@@ -9,9 +9,13 @@ AOS.init();
 const AboutMe = () => {
   return (
     <div id="about" className="bg-about">
-      <div class="hero min-h-screen">
-        <div class="hero-content flex-col lg:flex-row">
-          <img src="https://i.ibb.co/xXgcnyz/1.jpg" class="max-w-sm" alt="" />
+      <div className="hero min-h-screen">
+        <div className="hero-content flex-col lg:flex-row">
+          <img
+            src="https://i.ibb.co/xXgcnyz/1.jpg"
+            className="max-w-sm"
+            alt=""
+          />
           <div>
             <div data-aos="fade-left">
               <h5 className="text-2xl font-bold text-secondary">
@@ -19,12 +23,12 @@ const AboutMe = () => {
               </h5>
             </div>
             <div data-aos="fade-left">
-              <h1 class="text-4xl font-bold">
+              <h1 className="text-4xl font-bold">
                 I Can Devlop Anything <br /> You Want
               </h1>
             </div>
             <div data-aos="fade-left">
-              <p class="py-6 text-gray-400 text-md">
+              <p className="py-6 text-gray-400 text-md">
                 Hello there! I'm a Web Developer, and I'm very passionate and
                 dedicated to my work. I have acquired the skills and knowledge
                 necessary to make your project a success. I enjoy every step of
@@ -104,7 +108,7 @@ const AboutMe = () => {
                 </h3>
               </div>
             </div>
-            <button data-aos="fade-up" class="btn btn-info mt-5">
+            <button data-aos="fade-up" className="btn btn-info mt-5">
               Downlode My Resume
             </button>
           </div>

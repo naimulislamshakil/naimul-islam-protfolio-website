@@ -11,7 +11,7 @@ const SingalPortfolio = () => {
   const { id } = useParams();
   const [item, setItem] = useState({});
   useEffect(() => {
-    fetch(`http://localhost:5000/singal/${id}`)
+    fetch(`https://boiling-shore-42558.herokuapp.com/singal/${id}`)
       .then((res) => res.json())
       .then((data) => setItem(data));
   }, [id]);
@@ -29,16 +29,16 @@ const SingalPortfolio = () => {
   } = item;
   return (
     <div className="mt-16">
-      <figure class="md:flex bg-slate-100 rounded-xl p-8 md:p-0 w-full mx-auto justify-center	items-center h-[350px]">
+      <figure className="md:flex bg-slate-100 rounded-xl p-8 md:p-0 w-full mx-auto justify-center	items-center h-[350px]">
         <img
-          class="w-96 h-24 lg:w-[600px] lg:h-full md:rounded-none rounded-full mx-auto"
+          className="w-96 h-24 lg:w-[600px] lg:h-full md:rounded-none rounded-full mx-auto"
           src={img}
           alt=""
         />
-        <div class="pt-6 md:p-8 text-white text-center md:text-left space-y-4">
+        <div className="pt-6 md:p-8 text-white text-center md:text-left space-y-4">
           <blockquote>
             <h2 className="text-black text-3xl font-bold mb-3">{titel}</h2>
-            <p class="text-lg font-medium text-black">“{text}”</p>
+            <p className="text-lg font-medium text-black">“{text}”</p>
             <div className="arrow-text text-black">
               <img
                 data-aos="fade-right"
@@ -70,7 +70,7 @@ const SingalPortfolio = () => {
               ""
             )}
           </blockquote>
-          <figcaption class="font-medium">
+          <figcaption className="font-medium">
             <a className="btn btn-secondary" href={live_link} target="_blank">
               {live_text}
             </a>

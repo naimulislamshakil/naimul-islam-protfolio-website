@@ -26,15 +26,15 @@ const Tastmonial = () => {
         >
           <SwiperSlide>
             <div>
-              <figure class="md:flex bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800  w-3/4 mx-auto justify-center	items-center h-[350px]">
+              <figure className="md:flex bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800  w-3/4 mx-auto justify-center	items-center h-[350px]">
                 <img
-                  class="w-96 h-24 lg:w-full md:rounded-none rounded-full mx-auto"
+                  className="w-96 h-24 lg:w-full md:rounded-none rounded-full mx-auto"
                   src="https://i.ibb.co/JFXKwZw/2.jpg"
                   alt=""
                 />
-                <div class="pt-6 md:p-8 text-white text-center md:text-left space-y-4">
+                <div className="pt-6 md:p-8 text-white text-center md:text-left space-y-4">
                   <blockquote>
-                    <p class="text-lg font-medium">
+                    <p className="text-lg font-medium">
                       “I realy like to write reviews, but the Marketify team
                       truly deserve a standing ovation for their customer
                       support, customisation and most importantly, friendliness
@@ -43,11 +43,11 @@ const Tastmonial = () => {
                       future.”
                     </p>
                   </blockquote>
-                  <figcaption class="font-medium">
-                    <div class="text-sky-500 dark:text-sky-400">
+                  <figcaption className="font-medium">
+                    <div className="text-sky-500 dark:text-sky-400">
                       Mike Anderson
                     </div>
-                    <div class="text-slate-700 dark:text-slate-500">
+                    <div className="text-slate-700 dark:text-slate-500">
                       Vivaco Studio
                     </div>
                   </figcaption>
@@ -57,15 +57,15 @@ const Tastmonial = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div>
-              <figure class="md:flex bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800  w-3/4 mx-auto justify-center	items-center h-[350px]">
+              <figure className="md:flex bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800  w-3/4 mx-auto justify-center	items-center h-[350px]">
                 <img
-                  class="w-96 h-24 lg:w-full md:rounded-none rounded-full mx-auto"
+                  className="w-96 h-24 lg:w-full md:rounded-none rounded-full mx-auto"
                   src="https://i.ibb.co/PgxNz0q/3.jpg"
                   alt=""
                 />
-                <div class="pt-6 md:p-8 text-white text-center md:text-left space-y-4">
+                <div className="pt-6 md:p-8 text-white text-center md:text-left space-y-4">
                   <blockquote>
-                    <p class="text-lg font-medium">
+                    <p className="text-lg font-medium">
                       “Really the Code Quality, Customer Support, and design are
                       awesome and its good support they are giving. They give an
                       instant solution to our needs. Really awesome. I will
@@ -73,11 +73,11 @@ const Tastmonial = () => {
                       amazing theme! Thank you from United States of America!”
                     </p>
                   </blockquote>
-                  <figcaption class="font-medium">
-                    <div class="text-sky-500 dark:text-sky-400">
+                  <figcaption className="font-medium">
+                    <div className="text-sky-500 dark:text-sky-400">
                       Keita Smith
                     </div>
-                    <div class="text-slate-700 dark:text-slate-500">
+                    <div className="text-slate-700 dark:text-slate-500">
                       ABC Group
                     </div>
                   </figcaption>
@@ -87,15 +87,15 @@ const Tastmonial = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div>
-              <figure class="md:flex bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800  w-3/4 mx-auto justify-center	items-center h-[350px]">
+              <figure className="md:flex bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800  w-3/4 mx-auto justify-center	items-center h-[350px]">
                 <img
-                  class="w-96 h-24 lg:w-full md:rounded-none rounded-full mx-auto"
+                  className="w-96 h-24 lg:w-full md:rounded-none rounded-full mx-auto"
                   src="https://i.ibb.co/6bWR7vF/6.jpg"
                   alt=""
                 />
-                <div class="pt-6 md:p-8 text-white text-center md:text-left space-y-4">
+                <div className="pt-6 md:p-8 text-white text-center md:text-left space-y-4">
                   <blockquote>
-                    <p class="text-lg font-medium">
+                    <p className="text-lg font-medium">
                       “Loved the template design, documentation, customizability
                       and the customer support from Marketify team! I am a noob
                       in programming with very little knowledge about coding but
@@ -103,11 +103,11 @@ const Tastmonial = () => {
                       successfully. Much recommended!”
                     </p>
                   </blockquote>
-                  <figcaption class="font-medium">
-                    <div class="text-sky-500 dark:text-sky-400">
+                  <figcaption className="font-medium">
+                    <div className="text-sky-500 dark:text-sky-400">
                       Alan Walker
                     </div>
-                    <div class="text-slate-700 dark:text-slate-500">
+                    <div className="text-slate-700 dark:text-slate-500">
                       Web Designer
                     </div>
                   </figcaption>

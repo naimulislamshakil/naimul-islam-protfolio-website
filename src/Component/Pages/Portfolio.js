@@ -6,21 +6,21 @@ const Portfolio = () => {
   const [items, setItem] = useState([]);
   const [a, seta] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/portfolio")
+    fetch("https://boiling-shore-42558.herokuapp.com/portfolio")
       .then((res) => res.json())
       .then((data) => setItem(data));
   }, []);
 
   const showAll = () => {
     setItem([]);
-    fetch("http://localhost:5000/portfolio")
+    fetch("https://boiling-shore-42558.herokuapp.com/portfolio")
       .then((res) => res.json())
       .then((data) => setItem(data));
   };
   const specife = (value) => {
     setItem([]);
 
-    fetch("http://localhost:5000/portfolio")
+    fetch("https://boiling-shore-42558.herokuapp.com/portfolio")
       .then((res) => res.json())
       .then((data) => seta(data));
 

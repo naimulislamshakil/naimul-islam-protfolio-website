@@ -8,11 +8,11 @@ AOS.init();
 const Skill = () => {
   return (
     <div id="skill">
-      <div class="hero min-h-screen mt-5">
-        <div class="hero-content flex-col lg:flex-row-reverse">
+      <div className="hero min-h-screen mt-5">
+        <div className="hero-content flex-col lg:flex-row-reverse">
           <img
             src="https://i.ibb.co/JBmP2Hc/skill.jpg"
-            class="max-w-sm"
+            className="max-w-sm"
             alt=""
           />
           <div>
@@ -22,10 +22,13 @@ const Skill = () => {
             >
               Development Is Life
             </h2>
-            <h1 data-aos="fade-left" class="text-4xl font-bold">
+            <h1 data-aos="fade-left" className="text-4xl font-bold">
               I Develop Skills Regularly <br /> to Keep Me Update
             </h1>
-            <p data-aos="fade-right" class="pt-6 pb-0 text-md text-gray-400">
+            <p
+              data-aos="fade-right"
+              className="pt-6 pb-0 text-md text-gray-400"
+            >
               Every day I should incress my Skill.And Develop Skills Regularly
               to Keep Me Update
             </p>
@@ -116,7 +119,7 @@ const Skill = () => {
             </div>
 
             <div data-aos="fade-up">
-              <button class="btn btn-info mt-5">Downlode My Resume</button>
+              <button className="btn btn-info mt-5">Downlode My Resume</button>
             </div>
           </div>
         </div>

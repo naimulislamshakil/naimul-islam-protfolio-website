@@ -8,7 +8,7 @@ const Awesome = () => {
   return (
     <div className="mt-16">
       <div className="grid grid-cols-1 lg:grid-cols-3 mx-auto">
-        <div class="w-80 mx-auto mt-5">
+        <div className="w-80 mx-auto mt-5">
           <figure>
             <div data-aos="fade-right">
               <img
@@ -18,9 +18,9 @@ const Awesome = () => {
               />
             </div>
           </figure>
-          <div class="card-body">
+          <div className="card-body">
             <div data-aos="fade-right">
-              <h2 class="card-title justify-center">Pixel Perfect</h2>
+              <h2 className="card-title justify-center">Pixel Perfect</h2>
             </div>
             <div data-aos="fade-right">
               <p className="text-gray-400">
@@ -33,7 +33,7 @@ const Awesome = () => {
             </div>
           </div>
         </div>
-        <div class="w-80 mx-auto mt-5">
+        <div className="w-80 mx-auto mt-5">
           <figure>
             <div data-aos="fade-down">
               <img
@@ -43,9 +43,9 @@ const Awesome = () => {
               />
             </div>
           </figure>
-          <div class="card-body">
+          <div className="card-body">
             <div data-aos="fade-up">
-              <h2 class="card-title justify-center">Awesome Idea</h2>
+              <h2 className="card-title justify-center">Awesome Idea</h2>
             </div>
             <div data-aos="fade-up">
               <p className="text-gray-400">
@@ -56,7 +56,7 @@ const Awesome = () => {
             </div>
           </div>
         </div>
-        <div class="w-80 mx-auto mt-5">
+        <div className="w-80 mx-auto mt-5">
           <figure>
             <div data-aos="fade-left">
               <img
@@ -66,9 +66,9 @@ const Awesome = () => {
               />
             </div>
           </figure>
-          <div class="card-body">
+          <div className="card-body">
             <div data-aos="fade-left">
-              <h2 class="card-title justify-center">High Quality</h2>
+              <h2 className="card-title justify-center">High Quality</h2>
             </div>
             <div data-aos="fade-left">
               <p className="text-gray-400">

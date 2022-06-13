@@ -11,15 +11,18 @@ const PortfolioCard = ({ item }) => {
   };
   return (
     <div>
-      <div class="card w-80 bg-base-100 shadow-xl h-[350px]">
+      <div className="card w-80 bg-base-100 shadow-xl h-[350px]">
         <figure>
           <img src={img} alt="" />
         </figure>
-        <div class="card-body">
-          <h2 class="card-title">{titel}</h2>
+        <div className="card-body">
+          <h2 className="card-title">{titel}</h2>
 
-          <div class="card-actions justify-end items">
-            <button onClick={() => navigates(_id)} class="btn btn-secondary">
+          <div className="card-actions justify-end items">
+            <button
+              onClick={() => navigates(_id)}
+              className="btn btn-secondary"
+            >
               Learn More!
             </button>
           </div>

@@ -3,6 +3,7 @@ import AboutMe from "./AboutMe";
 import Awesome from "./Awesome";
 import Banner from "./Banner";
 import ContactUs from "./ContactUs";
+import Footer from "./Footer";
 import Portfolio from "./Portfolio";
 import Skill from "./Skill";
 import Subscribe from "./Subscribe";
@@ -19,6 +20,7 @@ const Home = () => {
       <Tastmonial></Tastmonial>
       <Subscribe></Subscribe>
       <ContactUs></ContactUs>
+      <Footer></Footer>
     </div>
   );
 };

@@ -7,7 +7,7 @@ AOS.init();
 
 const Skill = () => {
   return (
-    <div className="">
+    <div id="skill">
       <div class="hero min-h-screen mt-5">
         <div class="hero-content flex-col lg:flex-row-reverse">
           <img

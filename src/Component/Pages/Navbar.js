@@ -11,29 +11,30 @@ const Navbar = () => {
         </Link>
       </li>
       <li>
-        <Link className="btn-outline font-bold" to="/">
+        <a className="btn-outline font-bold" href="#about">
           About Us
-        </Link>
+        </a>
       </li>
       <li>
-        <Link className="btn-outline font-bold" to="/">
+        <a className="btn-outline font-bold" href="#port">
           Portfolio
-        </Link>
+        </a>
+      </li>
+
+      <li>
+        <a className="btn-outline font-bold" href="#skill">
+          Skill
+        </a>
       </li>
       <li>
-        <Link className="btn-outline font-bold" to="/">
-          Service
-        </Link>
+        <a className="btn-outline font-bold" href="#tast">
+          Tastmonial
+        </a>
       </li>
       <li>
-        <Link className="btn-outline font-bold" to="/">
-          Blogs
-        </Link>
-      </li>
-      <li>
-        <Link className="btn-outline font-bold" to="/">
+        <a className="btn-outline font-bold" href="#contact">
           Contact Us
-        </Link>
+        </a>
       </li>
     </>
   );

@@ -28,7 +28,7 @@ const ContactUs = () => {
     event.target.reset();
   };
   return (
-    <div className="bg-contact">
+    <div id="contact" className="bg-contact">
       <div>
         <h2 className="text-2xl text-center font-bold text-secondary">
           Contact Me{" "}

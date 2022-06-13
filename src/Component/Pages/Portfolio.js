@@ -29,7 +29,7 @@ const Portfolio = () => {
     setItem(available);
   };
   return (
-    <div className="bg-portfolio">
+    <div id="port" className="bg-portfolio">
       <h2 className="text-2xl font-bold text-secondary text-center">
         Portfolio
       </h2>

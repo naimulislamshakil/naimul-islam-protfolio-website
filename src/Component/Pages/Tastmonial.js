@@ -9,7 +9,7 @@ import { Pagination } from "swiper";
 
 const Tastmonial = () => {
   return (
-    <div className="mt-5 bg-testmonial bg-test">
+    <div id="tast" className="mt-5 bg-testmonial bg-test">
       <h2 className="text-2xl font-bold text-center text-secondary">
         Testimonials
       </h2>

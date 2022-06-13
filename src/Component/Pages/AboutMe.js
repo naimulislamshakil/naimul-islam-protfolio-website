@@ -8,7 +8,7 @@ AOS.init();
 
 const AboutMe = () => {
   return (
-    <div className="bg-about">
+    <div id="about" className="bg-about">
       <div class="hero min-h-screen">
         <div class="hero-content flex-col lg:flex-row">
           <img src="https://i.ibb.co/xXgcnyz/1.jpg" class="max-w-sm" alt="" />

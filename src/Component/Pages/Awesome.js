@@ -23,7 +23,7 @@ const Awesome = () => {
               <h2 class="card-title justify-center">Pixel Perfect</h2>
             </div>
             <div data-aos="fade-right">
-              <p className="text-gray-500">
+              <p className="text-gray-400">
                 Pixel perfect web development means “coding a website to match
                 the web designs pixel by pixel”. In reality, this is achievable
                 only for a fixed set of screen resolutions, so the general
@@ -48,7 +48,7 @@ const Awesome = () => {
               <h2 class="card-title justify-center">Awesome Idea</h2>
             </div>
             <div data-aos="fade-up">
-              <p className="text-gray-500">
+              <p className="text-gray-400">
                 Idea development is simply about implementing different ways of
                 exploring ideas and composing solutions that best solve the
                 problem in the most effective manner.
@@ -71,7 +71,7 @@ const Awesome = () => {
               <h2 class="card-title justify-center">High Quality</h2>
             </div>
             <div data-aos="fade-left">
-              <p className="text-gray-500">
+              <p className="text-gray-400">
                 Professional development refers to continuing education and
                 career training after a person has entered the workforce in
                 order to help them develop new skills, stay up-to-date on

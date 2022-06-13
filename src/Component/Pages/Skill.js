@@ -7,7 +7,7 @@ AOS.init();
 
 const Skill = () => {
   return (
-    <div>
+    <div className="">
       <div class="hero min-h-screen mt-5">
         <div class="hero-content flex-col lg:flex-row-reverse">
           <img
@@ -25,7 +25,7 @@ const Skill = () => {
             <h1 data-aos="fade-left" class="text-4xl font-bold">
               I Develop Skills Regularly <br /> to Keep Me Update
             </h1>
-            <p data-aos="fade-right" class="pt-6 pb-0">
+            <p data-aos="fade-right" class="pt-6 pb-0 text-md text-gray-400">
               Every day I should incress my Skill.And Develop Skills Regularly
               to Keep Me Update
             </p>

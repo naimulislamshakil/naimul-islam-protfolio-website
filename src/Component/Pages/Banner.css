@@ -6,6 +6,12 @@
   background-repeat: no-repeat;
   margin-top: 20px;
 }
+.bg-contact {
+  background-image: url(../../img/contact.png);
+  background-repeat: no-repeat;
+  margin-top: 20px;
+}
+
 .dark-gray {
   color: #808080;
 }
@@ -28,6 +34,8 @@
 .bg-testmonial {
   background-image: url(../../img/tastm.png);
   margin-left: auto;
+
+  background-position: left top;
   background-repeat: no-repeat;
 }
 .swiper {

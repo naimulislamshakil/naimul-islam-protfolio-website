@@ -24,7 +24,7 @@ const AboutMe = () => {
               </h1>
             </div>
             <div data-aos="fade-left">
-              <p class="py-6 text-gray-500">
+              <p class="py-6 text-gray-400 text-md">
                 Hello there! I'm a Web Developer, and I'm very passionate and
                 dedicated to my work. I have acquired the skills and knowledge
                 necessary to make your project a success. I enjoy every step of

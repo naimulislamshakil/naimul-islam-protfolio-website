@@ -34,7 +34,7 @@ const Portfolio = () => {
         Portfolio
       </h2>
       <h1 className="text-4xl font-bold text-center">My Amazing Works</h1>
-      <p className="text-center my-5 text-lg">
+      <p className="text-center my-5 text-md text-gray-400">
         Here is a collaction of my best Amazing works!
       </p>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 justify-evenly mt-5">

@@ -9,12 +9,14 @@ import { Pagination } from "swiper";
 
 const Tastmonial = () => {
   return (
-    <div className="mt-5 bg-testmonial">
+    <div className="mt-5 bg-testmonial bg-test">
       <h2 className="text-2xl font-bold text-center text-secondary">
         Testimonials
       </h2>
       <h2 className="text-center font-bold text-4xl">What My Clients Say</h2>
-      <p className="text-center text-lg mt-3">Tell me my clients for my work</p>
+      <p className="text-center text-md text-gray-400 mt-3">
+        Tell me my clients for my work
+      </p>
       <div>
         <Swiper
           pagination={true}

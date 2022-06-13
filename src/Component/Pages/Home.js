@@ -2,6 +2,7 @@ import React from "react";
 import AboutMe from "./AboutMe";
 import Awesome from "./Awesome";
 import Banner from "./Banner";
+import ContactUs from "./ContactUs";
 import Portfolio from "./Portfolio";
 import Skill from "./Skill";
 import Subscribe from "./Subscribe";
@@ -17,6 +18,7 @@ const Home = () => {
       <Skill></Skill>
       <Tastmonial></Tastmonial>
       <Subscribe></Subscribe>
+      <ContactUs></ContactUs>
     </div>
   );
 };

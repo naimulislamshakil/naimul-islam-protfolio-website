@@ -1,11 +1,23 @@
 import React from "react";
 import "./Banner.css";
 import AOS from "aos";
+import axios from "axios";
 import "aos/dist/aos.css"; // You can also use <link> for styles
+import fileDownload from "js-file-download";
 // ..
 AOS.init();
 
 const Skill = () => {
+  const downlode = (e) => {
+    e.preventDefault();
+    axios({
+      url: "https://boiling-shore-42558.herokuapp.com/resume",
+      method: "GET",
+      responseType: "blob",
+    }).then((res) => {
+      fileDownload(res.data, "Naimul_Islam_Resume_For_Web_Developer.pdf");
+    });
+  };
   return (
     <div id="skill">
       <div className="hero min-h-screen mt-5">
@@ -119,7 +131,13 @@ const Skill = () => {
             </div>
 
             <div data-aos="fade-up">
-              <button className="btn btn-info mt-5">Downlode My Resume</button>
+              <button
+                data-aos="fade-up"
+                onClick={downlode}
+                className="btn btn-info mt-5"
+              >
+                Downlode My Resume
+              </button>
             </div>
           </div>
         </div>

@@ -6,21 +6,19 @@ import fb from "../../img/social/facebook.png";
 import ln from "../../img/social/linkedin.png";
 import gh from "../../img/social/github.png";
 import axios from "axios";
-import JsFileDownloader from "js-file-downloader";
-import { Link } from "react-router-dom";
+import fileDownload from "js-file-download";
 
 const Banner = () => {
-  // const downlode = (e) => {
-  //   e.preventDefault();
-  //   axios({
-  //     url: "https://boiling-shore-42558.herokuapp.com/resume",
-  //     method: "GET",
-  //     responseType: "blob",
-  //   }).then((res) => {
-  //     console.log(res);
-  //     JsFileDownloader(res.data, "Naimul.pdf");
-  //   });
-  // };
+  const downlode = (e) => {
+    e.preventDefault();
+    axios({
+      url: "https://boiling-shore-42558.herokuapp.com/resume",
+      method: "GET",
+      responseType: "blob",
+    }).then((res) => {
+      fileDownload(res.data, "Naimul_Islam_Resume_For_Web_Developer.pdf");
+    });
+  };
   return (
     <div className="bg-image rounded-lg">
       <Navbar></Navbar>
@@ -74,9 +72,12 @@ const Banner = () => {
               passionate and dedicated to my work.
             </p>
             <div className="navbar-end">
-              <Link to={"/"} className="btn btn-outline btn-warning">
+              <button
+                onClick={downlode}
+                className="btn btn-outline btn-warning"
+              >
                 Downlode Resume
-              </Link>
+              </button>
             </div>
           </div>
         </div>

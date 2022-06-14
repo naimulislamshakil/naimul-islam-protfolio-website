@@ -2,11 +2,23 @@ import React from "react";
 import "./Banner.css";
 import AOS from "aos";
 import arrow from "../../img/arrow.png";
+import axios from "axios";
 import "aos/dist/aos.css"; // You can also use <link> for styles
+import fileDownload from "js-file-download";
 // ..
 AOS.init();
 
 const AboutMe = () => {
+  const downlode = (e) => {
+    e.preventDefault();
+    axios({
+      url: "https://boiling-shore-42558.herokuapp.com/resume",
+      method: "GET",
+      responseType: "blob",
+    }).then((res) => {
+      fileDownload(res.data, "Naimul_Islam_Resume_For_Web_Developer.pdf");
+    });
+  };
   return (
     <div id="about" className="bg-about">
       <div className="hero min-h-screen">
@@ -108,7 +120,11 @@ const AboutMe = () => {
                 </h3>
               </div>
             </div>
-            <button data-aos="fade-up" className="btn btn-info mt-5">
+            <button
+              onClick={downlode}
+              data-aos="fade-up"
+              className="btn btn-info mt-5"
+            >
               Downlode My Resume
             </button>
           </div>

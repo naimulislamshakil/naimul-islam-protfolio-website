@@ -11,7 +11,7 @@ const PortfolioCard = ({ item }) => {
   };
   return (
     <div>
-      <div className="card w-80 bg-base-100 shadow-xl h-[350px]">
+      <div className="card w-80 bg-base-100 shadow-xl h-[350px] mx-auto">
         <figure>
           <img src={img} alt="" />
         </figure>

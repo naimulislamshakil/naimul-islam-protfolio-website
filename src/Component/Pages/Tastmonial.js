@@ -26,7 +26,7 @@ const Tastmonial = () => {
         >
           <SwiperSlide>
             <div>
-              <figure className="md:flex bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800  w-3/4 mx-auto justify-center	items-center h-[350px]">
+              <figure className="md:flex bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800  w-3/4 mx-auto justify-center	items-center h-full lg:h-[350px]">
                 <img
                   className="w-96 h-24 lg:w-full md:rounded-none rounded-full mx-auto"
                   src="https://i.ibb.co/JFXKwZw/2.jpg"
@@ -57,7 +57,7 @@ const Tastmonial = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div>
-              <figure className="md:flex bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800  w-3/4 mx-auto justify-center	items-center h-[350px]">
+              <figure className="md:flex bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800  w-3/4 mx-auto justify-center	items-center h-full lg:h-[350px]">
                 <img
                   className="w-96 h-24 lg:w-full md:rounded-none rounded-full mx-auto"
                   src="https://i.ibb.co/PgxNz0q/3.jpg"
@@ -87,7 +87,7 @@ const Tastmonial = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div>
-              <figure className="md:flex bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800  w-3/4 mx-auto justify-center	items-center h-[350px]">
+              <figure className="md:flex bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800  w-3/4 mx-auto justify-center	items-center h-full lg:h-[350px]">
                 <img
                   className="w-96 h-24 lg:w-full md:rounded-none rounded-full mx-auto"
                   src="https://i.ibb.co/6bWR7vF/6.jpg"

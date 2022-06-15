@@ -25,7 +25,7 @@ const AboutMe = () => {
         <div className="hero-content flex-col lg:flex-row">
           <img
             src="https://i.ibb.co/xXgcnyz/1.jpg"
-            className="max-w-sm"
+            className="md:max-w-xs max-w-[200px]"
             alt=""
           />
           <div>

@@ -40,37 +40,37 @@ const Portfolio = () => {
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 justify-evenly mt-5">
         <button
           onClick={showAll}
-          className="font-bold hover:btn-primary btn p-5 w-3/4"
+          className="font-bold hover:btn-primary btn p-5 w-3/4 mx-auto"
         >
           Show All
         </button>
         <button
           onClick={() => specife("React")}
-          className="font-bold hover:btn-primary btn p-5 w-3/4"
+          className="font-bold hover:btn-primary btn p-5 w-3/4 mx-auto"
         >
           ReactJs
         </button>
         <button
           onClick={() => specife("Express JS")}
-          className="font-bold hover:btn-primary btn p-5 w-3/4"
+          className="font-bold hover:btn-primary btn p-5 w-3/4 mx-auto"
         >
           Express
         </button>
         <button
           onClick={() => specife("MongoDB")}
-          className="font-bold hover:btn-primary btn p-5 w-3/4"
+          className="font-bold hover:btn-primary btn p-5 w-3/4 mx-auto"
         >
           MongoDB
         </button>
         <button
           onClick={() => specife("TypeScript")}
-          className="font-bold hover:btn-primary btn p-5 w-3/4"
+          className="font-bold hover:btn-primary btn p-5 w-3/4 mx-auto"
         >
           TypeScript
         </button>
         <button
           onClick={() => specife("JavaScript")}
-          className="font-bold hover:btn-primary btn p-5 w-3/4"
+          className="font-bold hover:btn-primary btn p-5 w-3/4 mx-auto"
         >
           JavaScript
         </button>

@@ -24,7 +24,7 @@ const Skill = () => {
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img
             src="https://i.ibb.co/JBmP2Hc/skill.jpg"
-            className="max-w-sm"
+            className="md:max-w-xs max-w-[200px]"
             alt=""
           />
           <div>

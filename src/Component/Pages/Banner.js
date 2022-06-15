@@ -24,7 +24,7 @@ const Banner = () => {
       <Navbar></Navbar>
       <div className="hero min-h-screen ">
         <div className="hero-content flex-col lg:flex-row-reverse">
-          <img src={img} className="max-w-sm" alt="" />
+          <img src={img} className="md:max-w-xs max-w-[200px]" alt="" />
           <div>
             <div className="mb-3">
               <div className="avatar">
